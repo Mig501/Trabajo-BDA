@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Corpus y salidas (mantener estructura vacía versionada)
+data/**/*
+!data/**/
+!data/**/.gitkeep
+results/**/*
+!results/**/
+!results/**/.gitkeep
+
+# Archivos grandes/modelos
+*.parquet
+*.sqlite
+*.db
+*.pt
+*.safetensors
