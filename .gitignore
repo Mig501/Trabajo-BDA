@@ -3,6 +3,5 @@ __pycache__/
 .venv/
 .env
 .ipynb_checkpoints/
-data/exploracion_fismat/
-data/corpus/
+data/
 results/
